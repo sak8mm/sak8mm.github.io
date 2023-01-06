@@ -89,6 +89,7 @@ The next function we are going to create will take the min_number() and max_numb
 
 Couple of factors that was used to determine this function:
 
+
 1) Limit number of guesses the program gets based on min and max value, but no more than 10. We don't want to be here ALL DAY!
 
 2) We are going to have the program do a **binary search** to guess the number. This is where user honesty is important. Basically, the program will guess the mid point of the number range and ask if that is the user's number. If not, then the program will ask if its guess is higher or lower than the user's number. From there the program will drill down to the user's number by using mid points if it has enough tries to do so.
@@ -166,6 +167,7 @@ t.sleep(5)
 First:
 
 1) Sets the **tries** limit for the program based off the number range, but no more than 10 and the program gets at least 1 guess if number range is small.
+
 2) It also notifies the user how many **tries** the program will get and create a guest_list that is empty to hold guess(es) to ensure it does not repeat itself.
 
 ```python
@@ -199,6 +201,7 @@ while tries > 0:
 Third:
 
 1) This part actully renders a guess. Based on the user's response, the progam will either get the correct answer or ask if the number is higher or lower than the guess.
+
 2) Also, this part keeps track on the **tries** and **counts** during this process.
 
 ```python
