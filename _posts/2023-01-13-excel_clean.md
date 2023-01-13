@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Excel Clean Up
-image: "/posts/excel_clean.png"
+image: "/posts/excel_clean_.png"
 tags: [Python, Cleaning, Excel]
 ---
 
