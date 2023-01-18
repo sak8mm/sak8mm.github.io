@@ -326,6 +326,7 @@ Pick a min whole number:
 Perfect, everything looks like it is working as expected! Now we have a fun little guessing program we can play with, how cool is that!
 
 **Last thoughts**
+
 There are several things we can do with this program to improve, make less error prone, etc., but here are some of my thoughts to what I would do:
 
 1) Combine the min_number() and max_number() functions into one for less code clutter.
